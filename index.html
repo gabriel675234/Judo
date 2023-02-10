@@ -355,24 +355,12 @@
 								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
 							</ul> -->
 							<p>&copy; Judo❤ Design: <a href="#">Gabriel Pelosi</a>.</p>
+							
+						</div>
+						<div class="count">
+							<script src="assets/js/count.js"></script>
 						</div>
 					</footer>
-					<script>
-						const countEl = document.getElementById("count");
-						countvisit();
-
-						function countvisit() {
-							fetch('https://api.countapi.xyz/update/laptop/mouse/?amount=1')
-								.then((res) => res.json())
-								.then((res) =>{
-									countEl.innerHTML = res.value;
-								});
-
-						}
-					</script>
-					<p>questa pagina e' stata vista da</p>
-					<h1 id="count">0</h1>
-					<p>persone</p>
 
 			</div>
 

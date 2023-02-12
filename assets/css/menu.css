@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    padding: 30px;
+    font-family: sans-serif;
+    
+}
+#container{
+    position: relative;
+    width: 940;
+}
+#container::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
